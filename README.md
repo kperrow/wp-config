@@ -294,17 +294,10 @@ if ( wp_get_environment_type() === 'production' ) {
 ## File Structure
 
 ```
-├── README.md                       # This file
-├── wp-config-reference.php         # Complete reference (850+ lines)
-├── examples/
-│   ├── production.php              # Production template
-│   ├── development.php             # Development template
-│   ├── staging.php                 # Staging template
-│   └── multisite.php               # Multisite template
-└── snippets/
-    ├── security.php                # Security-focused snippets
-    ├── performance.php             # Performance optimisations
-    └── debugging.php               # Debugging configurations
+kperrow/wp-config/
+├── README.md                  # This file
+├── wp-config-reference.php    # Complete reference (850+ lines)
+└── LICENSE                    # MIT License
 ```
 
 ## Contributing
